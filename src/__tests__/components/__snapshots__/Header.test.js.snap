@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<section
+  className="hero is-info is-medium"
+>
+  <div
+    className="hero-head"
+  />
+  <div
+    className="hero-body has-text-centered"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title"
+      >
+        <img
+          alt="Comparison of Front-End Frameworks"
+          src="logo.svg"
+        />
+        Comparison of Front-End Frameworks
+      </h1>
+    </div>
+  </div>
+</section>
+`;

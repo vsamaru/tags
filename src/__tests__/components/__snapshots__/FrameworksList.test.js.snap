@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frameworks List should pass snapshot correctly 1`] = `
+<div
+  className="section is-x"
+>
+  <div
+    className="container is-fullhd"
+  >
+    <h2
+      className="title"
+    >
+      List of Frameworks
+    </h2>
+    <table
+      className="table has-text-centered is-striped is-bordered"
+    >
+      <thead>
+        <tr>
+          <th
+            className="is-first"
+          />
+          <th>
+            <span
+              className="tag is-tooltip is-info"
+              data-tooltip="A modern CSS framework based on Flexbox"
+            >
+              Bulma
+            </span>
+          </th>
+          <th>
+            <span
+              className="tag is-tooltip is-info"
+              data-tooltip="Ink is a set of tools for quick development of web interfaces"
+            >
+              Ink Interface Kit
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <strong>
+              Links
+            </strong>
+          </td>
+          <td>
+            <div
+              className="field has-addons has-text-centered"
+            >
+              <div
+                className="control"
+              >
+                <Link
+                  className="button is-small is-info is-outlined"
+                  url="http://bulma.io/"
+                >
+                  <Icon
+                    name="globe"
+                  />
+                  <span
+                    className="button-text"
+                  >
+                    Website
+                  </span>
+                </Link>
+              </div>
+              <div
+                className="control"
+              >
+                <Link
+                  className="button is-small is-info is-outlined"
+                  url="http://bulma.io/documentation/overview/start/"
+                >
+                  <Icon
+                    name="book"
+                  />
+                  <span
+                    className="button-text"
+                  >
+                    Docs
+                  </span>
+                </Link>
+              </div>
+              <div
+                className="control"
+              >
+                <Link
+                  className="button is-small is-info is-outlined"
+                  url="https://github.com/jgthms/bulma"
+                >
+                  <Icon
+                    name="github"
+                  />
+                  <span
+                    className="button-text"
+                  >
+                    GitHub
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div
+              className="field has-addons has-text-centered"
+            >
+              <div
+                className="control"
+              >
+                <Link
+                  className="button is-small is-info is-outlined"
+                  url="http://ink.sapo.pt/"
+                >
+                  <Icon
+                    name="globe"
+                  />
+                  <span
+                    className="button-text"
+                  >
+                    Website
+                  </span>
+                </Link>
+              </div>
+              <div
+                className="control"
+              >
+                <Link
+                  className="button is-small is-info is-outlined"
+                  url="http://ink.sapo.pt/ui-elements/"
+                >
+                  <Icon
+                    name="book"
+                  />
+                  <span
+                    className="button-text"
+                  >
+                    Docs
+                  </span>
+                </Link>
+              </div>
+              <div
+                className="control"
+              >
+                <Link
+                  className="button is-small is-info is-outlined"
+                  url="https://github.com/sapo/Ink/"
+                >
+                  <Icon
+                    name="github"
+                  />
+                  <span
+                    className="button-text"
+                  >
+                    GitHub
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              How To Install?
+            </strong>
+          </td>
+          <td
+            className="no-padding"
+          >
+            <pre>
+              <code>
+                bower i bulma -S
+              </code>
+            </pre>
+            <pre>
+              <code>
+                npm i bulma -S
+              </code>
+            </pre>
+            <pre>
+              <code>
+                yarn add bulma
+              </code>
+            </pre>
+          </td>
+          <td
+            className="no-padding"
+          >
+            <pre>
+              <code>
+                bower i sapo-ink -S
+              </code>
+            </pre>
+            <pre>
+              <code>
+                Not Available
+              </code>
+            </pre>
+            <pre>
+              <code>
+                Not Available
+              </code>
+            </pre>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              Github Stats
+            </strong>
+          </td>
+          <td>
+            <div
+              className="tag-group"
+            >
+              <Link
+                className="tag is-space is-rounded is-small is-dark"
+                url="https://github.com/jgthms/bulma/stargazers"
+              >
+                <Icon
+                  name="star"
+                />
+                19K+
+              </Link>
+              <Link
+                className="tag is-rounded is-small is-dark"
+                url="https://github.com/jgthms/bulma/network"
+              >
+                <Icon
+                  name="code-fork"
+                />
+                1.4K+
+              </Link>
+            </div>
+          </td>
+          <td>
+            <div
+              className="tag-group"
+            >
+              <Link
+                className="tag is-space is-rounded is-small is-dark"
+                url="https://github.com/sapo/Ink//stargazers"
+              >
+                <Icon
+                  name="star"
+                />
+                1.9K+
+              </Link>
+              <Link
+                className="tag is-rounded is-small is-dark"
+                url="https://github.com/sapo/Ink//network"
+              >
+                <Icon
+                  name="code-fork"
+                />
+                200+
+              </Link>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              Latest Version
+            </strong>
+          </td>
+          <td>
+            <Link
+              className="tag is-space is-rounded is-small is-info"
+              url="https://github.com/jgthms/bulma/releases"
+            >
+              <Icon
+                name="history"
+              />
+              <span>
+                v
+                0.5.3
+              </span>
+            </Link>
+          </td>
+          <td>
+            <Link
+              className="tag is-space is-rounded is-small is-info"
+              url="https://github.com/sapo/Ink//releases"
+            >
+              <Icon
+                name="history"
+              />
+              <span>
+                v
+                3.1.10
+              </span>
+            </Link>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              Icons
+            </strong>
+          </td>
+          <td>
+            <Link
+              className="tag is-rounded is-small is-success"
+              text="Yes"
+              tooltip="Font Awesome (Optional)"
+              url="http://fontawesome.io/"
+            />
+          </td>
+          <td>
+            <span
+              className="tag is-rounded is-small is-danger"
+            >
+              No
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              CSS Preprocessor
+            </strong>
+          </td>
+          <td>
+            <Link
+              className="tag is-rounded is-small is-info"
+              url="http://sass-lang.com/"
+            >
+              SASS
+            </Link>
+          </td>
+          <td>
+            <Link
+              className="tag is-rounded is-small is-info"
+              url="http://sass-lang.com/"
+            >
+              SASS
+            </Link>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              JS Library
+            </strong>
+          </td>
+          <td>
+            <span
+              className="tag is-rounded is-small is-danger"
+            >
+              No
+            </span>
+          </td>
+          <td>
+            <Link
+              className="tag is-rounded is-small is-success"
+              text="Yes"
+              url="http://ink.sapo.pt/javascript/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>
+              License
+            </strong>
+          </td>
+          <td>
+            <Link
+              className="tag is-rounded is-small is-info"
+              text="MIT"
+              url="https://opensource.org/licenses/MIT"
+            />
+          </td>
+          <td>
+            <Link
+              className="tag is-rounded is-small is-info"
+              text="MIT"
+              url="https://opensource.org/licenses/MIT"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

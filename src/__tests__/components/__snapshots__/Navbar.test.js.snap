@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<nav
+  className="nav"
+>
+  <div
+    className="container is-fullhd"
+  >
+    <div
+      className="nav-left"
+    >
+      <div
+        className="nav-item"
+      >
+        <img
+          alt="Comparison of Front-End Frameworks"
+          src="logo.svg"
+        />
+        Comparison of Front-End Frameworks
+      </div>
+    </div>
+    <span
+      className="nav-toggle"
+      onClick={[Function]}
+    >
+      <span />
+      <span />
+      <span />
+    </span>
+    <div
+      className="nav-right nav-menu"
+    >
+      <Link
+        className="nav-item"
+        url="https://github.com/Landish/frameworks.now.sh"
+      >
+        <Icon
+          name="github"
+        />
+        Source Code
+      </Link>
+      <Link
+        className="nav-item"
+        url="https://github.com/Landish/frameworks.now.sh/blob/master/CHANGELOG.md"
+      >
+        <span
+          className="tag is-white is-small"
+        >
+          v
+          1.3.0
+        </span>
+      </Link>
+    </div>
+  </div>
+</nav>
+`;

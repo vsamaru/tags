@@ -1,0 +1,630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components List renders correctly 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="container is-x is-fullhd"
+  >
+    <h2
+      className="title"
+    >
+      List of Components
+    </h2>
+    <table
+      className="table has-text-centered is-striped is-bordered"
+    >
+      <thead>
+        <tr>
+          <th
+            className="is-first"
+          >
+            <span
+              className="is-dark"
+            >
+              Component Name
+            </span>
+          </th>
+          <th>
+            <span
+              className="is-dark"
+            >
+              Bulma
+            </span>
+          </th>
+          <th>
+            <span
+              className="is-dark"
+            >
+              Ink Interface Kit
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Accordion
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/javascript-ui/#InkUIToggle_1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Alert
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/notification/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/alerts/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Avatar
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Badge
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/tag/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/typography/#labels-and-badges"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Breadcrumbs
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/breadcrumb/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/navigation/#breadcrumbs"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Button
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/button/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/buttons/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Card
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/card/"
+            />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Dropdown
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/dropdown/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/navigation/#dropdowns"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Flex Grid
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/grid/columns/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/flexbox/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Form
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/form/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/forms/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Grid
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/grid/columns/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/grid/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Icons
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/icon/"
+            />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Label
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/tag/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/typography/#labels-and-badges"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              List
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Loading
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Media Object
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/media-object/"
+            />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Menu
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/menu/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/navigation/#menus"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Modal
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/modal/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/javascript-ui/#InkUIModal_1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Navbar
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/navbar/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/navigation/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Off-Canvas
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Pagination
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/pagination/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/navigation/#pagination"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Panel
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/panel/"
+            />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Popover
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Progress
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/progress/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/javascript-ui/#InkUIProgressBar_1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Table
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/table/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/tables/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Tabs
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/components/tabs/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/javascript-ui/#InkUITabs_1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Tags
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Thumbnail
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/image/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/images/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Tooltip
+            </span>
+          </td>
+          <td>
+            <NotAvailable />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/javascript-ui/#InkUITooltip_1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Typography
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/elements/content/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/typography/"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              className="tag is-info is-rounded"
+            >
+              Utilities
+            </span>
+          </td>
+          <td>
+            <DemoButton
+              url="http://bulma.io/documentation/modifiers/helpers/"
+            />
+          </td>
+          <td>
+            <DemoButton
+              url="http://ink.sapo.pt/ui-elements/helpers/"
+            />
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th
+            className="is-first"
+          >
+            <span
+              className="is-dark"
+            >
+              Component Name
+            </span>
+          </th>
+          <th>
+            <span
+              className="is-dark"
+            >
+              Bulma
+            </span>
+          </th>
+          <th>
+            <span
+              className="is-dark"
+            >
+              Ink Interface Kit
+            </span>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+`;

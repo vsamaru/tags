@@ -1,0 +1,781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chooser renders correctly 1`] = `
+<div
+  className="section has-text-centered"
+>
+  <div
+    className="container is-fullhd"
+  >
+    <h2
+      className="subtitle is-5"
+    >
+      Select 
+      <strong>
+        at least 
+        2
+      </strong>
+       and 
+      <strong>
+        maximum 
+        4
+      </strong>
+       
+      front-end frameworks and compare them to each other.
+    </h2>
+    <div
+      className="notification"
+    >
+      <SelectButton
+        framework={
+          Object {
+            "css": "LESS",
+            "description": "A mobile-first and modular front-end framework",
+            "documentation": "http://amazeui.github.io/docs/en/",
+            "github": "https://github.com/amazeui/amazeui",
+            "icons": Object {
+              "name": "Font Awesome",
+              "url": "http://fontawesome.io/",
+            },
+            "install": "amazeui",
+            "js": "http://amazeui.github.io/docs/en/javascript/",
+            "name": "Amaze UI",
+            "slug": "amaze",
+            "stats": Object {
+              "forks": "2.3K+",
+              "stars": "10K+",
+            },
+            "url": "http://amazeui.github.io/docs/en/",
+            "version": "2.7.2",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": false,
+            "description": "A consumable library of Brandwatch UI & UX patterns",
+            "documentation": "https://brandwatchltd.github.io/axiom",
+            "github": "https://github.com/BrandwatchLtd/axiom",
+            "icons": Object {
+              "name": "Axiom SVG Icons",
+              "url": "https://brandwatchltd.github.io/axiom/docs/components/icon",
+            },
+            "install": Object {
+              "bower": false,
+              "npm": "bw-axiom",
+              "yarn": "bw-axiom",
+            },
+            "isNew": true,
+            "js": false,
+            "name": "Axiom - Pattern Library",
+            "slug": "axiom",
+            "stats": Object {
+              "forks": "20+",
+              "stars": "25+",
+            },
+            "url": "https://brandwatchltd.github.io/axiom",
+            "version": "27.7.0",
+          }
+        }
+        isNew={true}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "Open source modular CSS toolkit providing great structure for building websites quickly",
+            "documentation": "http://blazecss.com/getting-started/install/",
+            "github": "https://github.com/BlazeCSS/blaze",
+            "install": "blaze",
+            "js": false,
+            "name": "Blaze CSS",
+            "slug": "blaze",
+            "stats": Object {
+              "forks": "100+",
+              "stars": "1.2K+",
+            },
+            "url": "http://blazecss.com/",
+            "version": "3.3.0",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "http://getbootstrap.com/getting-started/#support-browsers",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE9+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "LESS",
+            "description": "The most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web",
+            "documentation": "http://getbootstrap.com/getting-started/",
+            "github": "https://github.com/twbs/bootstrap",
+            "icons": Object {
+              "name": "Glyphicons",
+              "url": "http://getbootstrap.com/components/#glyphicons-glyphs",
+            },
+            "install": "bootstrap",
+            "js": "http://getbootstrap.com/javascript/",
+            "name": "Bootstrap 3",
+            "slug": "bootstrap3",
+            "stats": Object {
+              "forks": "54K+",
+              "stars": "115K+",
+            },
+            "url": "https://getbootstrap.com/docs/3.3/",
+            "version": "3.3.7",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Chrome: Latest",
+              "details": "http://v4-alpha.getbootstrap.com/getting-started/browsers-devices/",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE9+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "SASS",
+            "description": "Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web",
+            "documentation": "https://v4-alpha.getbootstrap.com/getting-started/introduction/",
+            "github": "https://github.com/twbs/bootstrap",
+            "icons": false,
+            "install": "bootstrap@4.0.0-beta",
+            "js": "https://v4-alpha.getbootstrap.com/getting-started/javascript/",
+            "name": "Bootstrap 4 (Beta)",
+            "slug": "bootstrap4",
+            "stats": Object {
+              "forks": "54K+",
+              "stars": "115K+",
+            },
+            "url": "https://getbootstrap.com/",
+            "version": "4.0.0-beta",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "firefox": "Latest",
+              "ie": "IE10+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "SASS",
+            "description": "A modern CSS framework based on Flexbox",
+            "documentation": "http://bulma.io/documentation/overview/start/",
+            "github": "https://github.com/jgthms/bulma",
+            "icons": Object {
+              "name": "Font Awesome (Optional)",
+              "url": "http://fontawesome.io/",
+            },
+            "install": "bulma",
+            "js": false,
+            "name": "Bulma",
+            "slug": "bulma",
+            "stats": Object {
+              "forks": "1.4K+",
+              "stars": "19K+",
+            },
+            "url": "http://bulma.io/",
+            "version": "0.5.3",
+          }
+        }
+        isNew={false}
+        isSelected={true}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "http://foundation.zurb.com/sites/docs/v/5.5.3/compatibility.html",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE9+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "SASS",
+            "description": "The most advanced, responsive front-end framework in the world. The framework is mobile friendly and ready for you to customize it any way you want to use it",
+            "documentation": "http://foundation.zurb.com/sites/docs/v/5.5.3/",
+            "github": "https://github.com/zurb/foundation-sites",
+            "icons": Object {
+              "name": "Foundation Icon Fonts 3 (Optional)",
+              "url": "http://zurb.com/playground/foundation-icon-fonts-3",
+            },
+            "install": "foundation-sites@5.5.3",
+            "js": "http://foundation.zurb.com/sites/docs/v/5.5.3/javascript.html",
+            "name": "Foundation 5",
+            "slug": "foundation5",
+            "stats": Object {
+              "forks": "5.7K+",
+              "stars": "26K+",
+            },
+            "url": "http://foundation.zurb.com/sites/docs/v/5.5.3/",
+            "version": "5.5.3",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "https://foundation.zurb.com/sites/docs/compatibility.html",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE9+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "SASS",
+            "description": "The most advanced responsive front-end framework in the world",
+            "documentation": "http://foundation.zurb.com/sites/docs/",
+            "github": "https://github.com/zurb/foundation-sites",
+            "icons": Object {
+              "name": "Foundation Icon Fonts 3 (Optional)",
+              "url": "http://zurb.com/playground/foundation-icon-fonts-3",
+            },
+            "install": "foundation-sites",
+            "js": "https://foundation.zurb.com/sites/docs/javascript.html",
+            "name": "Foundation 6",
+            "slug": "foundation6",
+            "stats": Object {
+              "forks": "5.7K+",
+              "stars": "26K+",
+            },
+            "url": "http://foundation.zurb.com/",
+            "version": "6.4.3",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "A Flexible, Responsive CSS Framework - Powered by Sass",
+            "documentation": "https://gumbyframework.com/docs/",
+            "github": "https://github.com/GumbyFramework/Gumby",
+            "icons": Object {
+              "name": "Entypo",
+              "url": "https://gumbyframework.com/docs/ui-kit/#!/icons",
+            },
+            "install": Object {
+              "bower": "gumby",
+              "npm": false,
+            },
+            "js": "https://gumbyframework.com/docs/javascript/",
+            "name": "Gumby",
+            "slug": "gumby",
+            "stats": Object {
+              "forks": "500+",
+              "stars": "2.9K+",
+            },
+            "url": "https://gumbyframework.com/",
+            "version": "2.6.4",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "Ink is a set of tools for quick development of web interfaces",
+            "documentation": "http://ink.sapo.pt/ui-elements/",
+            "github": "https://github.com/sapo/Ink/",
+            "install": Object {
+              "bower": "sapo-ink",
+              "npm": false,
+              "yarn": false,
+            },
+            "js": "http://ink.sapo.pt/javascript/",
+            "name": "Ink Interface Kit",
+            "slug": "ink",
+            "stats": Object {
+              "forks": "200+",
+              "stars": "1.9K+",
+            },
+            "url": "http://ink.sapo.pt/",
+            "version": "3.1.10",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "firefox": "Latest",
+              "ie": "IE10+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "SASS",
+            "description": "Clean, minimalistic and fast to implement, Kube is free to all CSS and Web Framework",
+            "documentation": "https://imperavi.com/kube/docs/",
+            "github": "https://github.com/imperavi/kube",
+            "icons": Object {
+              "name": "Font Awesome (Optional)",
+              "url": "http://fontawesome.io/",
+            },
+            "install": "kube",
+            "js": "https://imperavi.com/kube/docs/custom-plugins/",
+            "name": "Kube",
+            "slug": "kube",
+            "stats": Object {
+              "forks": "190+",
+              "stars": "1K+",
+            },
+            "url": "https://imperavi.com/kube/",
+            "version": "6.5.2",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "35+",
+              "firefox": "31+",
+              "ie": "IE10+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "7+",
+            },
+            "css": "SASS",
+            "description": "A modern responsive front-end framework based on Material Design",
+            "documentation": "http://materializecss.com/getting-started.html",
+            "github": "https://github.com/Dogfalo/materialize",
+            "icons": Object {
+              "name": "Material Design Icons",
+              "url": "http://materializecss.com/icons.html",
+            },
+            "install": "materialize-css",
+            "js": "http://materializecss.com/carousel.html",
+            "name": "Materialize",
+            "slug": "materialize",
+            "stats": Object {
+              "forks": "4K+",
+              "stars": "29K+",
+            },
+            "url": "http://materializecss.com/",
+            "version": "0.100.2",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "LESS",
+            "description": "The front-end framework for developing projects on the web in Windows MetroUI Style",
+            "documentation": "https://metroui.org.ua/",
+            "github": "https://github.com/olton/Metro-UI-CSS",
+            "icons": Object {
+              "name": "MetroUI Icon Font",
+              "url": "https://metroui.org.ua/font.html",
+            },
+            "install": "metro-dist",
+            "js": "https://metroui.org.ua/events.html",
+            "name": "Metro UI CSS",
+            "slug": "metro",
+            "stats": Object {
+              "forks": "1.8K+",
+              "stars": "5.4K+",
+            },
+            "url": "https://metroui.org.ua/",
+            "version": "3.0.17",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "Minimal, responsive, style-agnostic CSS framework",
+            "documentation": "http://minicss.org/index",
+            "github": "https://github.com/Chalarangelo/mini.css",
+            "install": "mini.css",
+            "js": false,
+            "name": "mini.css",
+            "slug": "mini",
+            "stats": Object {
+              "forks": "60+",
+              "stars": "1.8K+",
+            },
+            "url": "http://minicss.org/",
+            "version": "2.3.4",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "MUI is a lightweight CSS framework that follows Google's Material Design guidelines",
+            "documentation": "https://www.muicss.com/docs/v1/css-js",
+            "github": "https://github.com/muicss/mui",
+            "install": Object {
+              "bower": "mui",
+              "npm": "muicss",
+              "yarn": "muicss",
+            },
+            "isNew": true,
+            "js": "https://www.muicss.com/docs/v1/css-js/reference",
+            "name": "MUI",
+            "slug": "mui",
+            "stats": Object {
+              "forks": "300+",
+              "stars": "3.6K+",
+            },
+            "url": "https://www.muicss.com/",
+            "version": "0.9.27",
+          }
+        }
+        isNew={true}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "The official front-end framework for building experiences that fit seamlessly into Office and Office 365",
+            "documentation": "http://dev.office.com/fabric#/get-started",
+            "github": "https://github.com/OfficeDev/office-ui-fabric-core",
+            "icons": Object {
+              "name": "Office UI Icons",
+              "url": "http://dev.office.com/fabric#/styles/icons",
+            },
+            "install": "office-ui-fabric-core",
+            "isNew": true,
+            "js": "https://dev.office.com/fabric-js/index.html",
+            "name": "Office UI Fabric",
+            "slug": "office",
+            "stats": Object {
+              "forks": "370+",
+              "stars": "2.7K+",
+            },
+            "url": "http://dev.office.com/fabric",
+            "version": "8.0.0",
+          }
+        }
+        isNew={true}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "https://github.com/uikit/uikit#browser-support",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE9+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "7.1+",
+            },
+            "css": "LESS",
+            "description": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
+            "documentation": "https://getuikit.com/v2/docs/documentation_get-started.html",
+            "github": "https://github.com/uikit/uikit",
+            "icons": Object {
+              "name": "Font Awesome",
+              "url": "http://fontawesome.io/",
+            },
+            "install": "uikit",
+            "js": "https://getuikit.com/v2/docs/documentation_javascript.html",
+            "name": "UIkit 2",
+            "slug": "uikit2",
+            "stats": Object {
+              "forks": "1.7K+",
+              "stars": "10K+",
+            },
+            "url": "https://getuikit.com/v2/",
+            "version": "2.27.4",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "https://github.com/uikit/uikit#browser-support",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE9+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "7.1+",
+            },
+            "css": "LESS",
+            "description": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
+            "documentation": "https://getuikit.com/docs/introduction",
+            "github": "https://github.com/uikit/uikit",
+            "icons": Object {
+              "name": "UIkit SVG Icons",
+              "url": "https://getuikit.com/docs/icon",
+            },
+            "install": "uikit@3.0.0-beta.4",
+            "js": "https://getuikit.com/docs/javascript",
+            "name": "UIkit 3 (Beta)",
+            "slug": "uikit3",
+            "stats": Object {
+              "forks": "1.7K+",
+              "stars": "10K+",
+            },
+            "url": "https://getuikit.com/",
+            "version": "3.0.0-Beta.30",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "4+",
+              "chrome": "Latest",
+              "details": "http://primercss.io/about/#browser-support",
+              "firefox": "Latest",
+              "ie": "IE8+",
+              "ios": "6+",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": false,
+            "description": "A set of small, responsive CSS modules that you can use in every web project",
+            "documentation": "http://purecss.io/start/",
+            "github": "https://github.com/yahoo/pure",
+            "icons": false,
+            "install": Object {
+              "bower": "pure",
+              "npm": "purecss",
+              "yarn": "purecss",
+            },
+            "js": false,
+            "licence": Object {
+              "name": "BSD License",
+              "url": "https://github.com/yahoo/pure/blob/master/LICENSE.md",
+            },
+            "name": "Pure.css",
+            "slug": "pure",
+            "stats": Object {
+              "forks": "1.9K+",
+              "stars": "17K+",
+            },
+            "url": "http://purecss.io/",
+            "version": "1.0.0",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "http://primercss.io/about/#browser-support",
+              "firefox": "Latest",
+              "ie": "IE10+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "SASS",
+            "description": "The CSS toolkit and guidelines that power GitHub",
+            "documentation": "http://primercss.io/scaffolding/",
+            "github": "https://github.com/primer/primer-css",
+            "icons": Object {
+              "name": "Github Octicons (Optional)",
+              "url": "https://octicons.github.com/",
+            },
+            "install": "primer-css",
+            "js": false,
+            "name": "Primer",
+            "slug": "primer",
+            "stats": Object {
+              "forks": "400+",
+              "stars": "6.1K+",
+            },
+            "url": "http://primercss.io/",
+            "version": "9.4.0",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "browsers": Object {
+              "android": "Latest",
+              "chrome": "Latest",
+              "details": "https://github.com/Semantic-Org/Semantic-UI#browser-support",
+              "edge": "Latest",
+              "firefox": "Latest",
+              "ie": "IE11+",
+              "ios": "Latest",
+              "opera": "Latest",
+              "safari": "Latest",
+            },
+            "css": "LESS",
+            "description": "Semantic is a UI component framework based around useful principles from natural language",
+            "documentation": "http://semantic-ui.com/introduction/getting-started.html",
+            "github": "https://github.com/Semantic-Org/Semantic-UI",
+            "icons": Object {
+              "name": "Font Awesome",
+              "url": "http://fontawesome.io/",
+            },
+            "install": "semantic-ui",
+            "js": "http://semantic-ui.com/behaviors/api.html",
+            "name": "Semantic UI",
+            "slug": "semantic",
+            "stats": Object {
+              "forks": "4K+",
+              "stars": "37K+",
+            },
+            "url": "http://semantic-ui.com/",
+            "version": "2.2.13",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": false,
+            "description": "A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
+            "documentation": "http://getskeleton.com/",
+            "github": "https://github.com/dhg/Skeleton",
+            "install": Object {
+              "bower": "skeleton",
+              "npm": false,
+              "yarn": false,
+            },
+            "isNew": true,
+            "js": false,
+            "name": "Skeleton",
+            "slug": "skeleton",
+            "stats": Object {
+              "forks": "2K+",
+              "stars": "14K+",
+            },
+            "url": "http://getskeleton.com/",
+            "version": "2.0.4",
+          }
+        }
+        isNew={true}
+        isSelected={false}
+        onClick={[Function]}
+      />
+      <SelectButton
+        framework={
+          Object {
+            "css": "SASS",
+            "description": "Spectre.css is a lightweight and responsive and modern CSS framework for faster and extensible development",
+            "documentation": "https://picturepan2.github.io/spectre/index.html#introduction",
+            "github": "https://github.com/picturepan2/spectre",
+            "icons": Object {
+              "name": "Spectre.css Icons",
+              "url": "https://picturepan2.github.io/spectre/elements.html#icons",
+            },
+            "install": "spectre.css",
+            "name": "Spectre.css",
+            "slug": "spectre",
+            "stats": Object {
+              "forks": "300+",
+              "stars": "4.9K+",
+            },
+            "url": "https://picturepan2.github.io/spectre/",
+            "version": "0.4.3",
+          }
+        }
+        isNew={false}
+        isSelected={false}
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

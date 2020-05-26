@@ -1,0 +1,7 @@
+{
+  "title": "Comparison of Front-End Frameworks",
+  "version": "1.3.0",
+  "minimum": 2,
+  "maximum": 5,
+  "defaultSelected": ["axiom", "blaze", "mui", "skeleton", "office"]
+}

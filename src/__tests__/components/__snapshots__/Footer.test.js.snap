@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="content has-text-centered"
+    >
+      <p>
+        <strong>
+          Comparison of Front-End Frameworks
+        </strong>
+         by
+        <Link
+          text="Lado Lomidze"
+          url="http://landish.github.io/"
+        />
+      </p>
+      <p>
+        Built with
+        <Link
+          text="React"
+          url="https://reactjs.org"
+        />
+         &
+        <Link
+          text="Bulma"
+          url="http://bulma.io/"
+        />
+      </p>
+      <p>
+        © 2016-2017
+      </p>
+    </div>
+  </div>
+</footer>
+`;
